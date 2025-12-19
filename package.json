@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "format": "prettier --write \"src/**/*.{ts,html,css}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,html,css}\""
+    "format:check": "prettier --check \"src/**/*.{ts,html,css}\"",
+    "e2e": "playwright test"
   },
   "prettier": {
     "printWidth": 100,
@@ -40,10 +41,11 @@
     "@angular/build": "^21.0.3",
     "@angular/cli": "^21.0.3",
     "@angular/compiler-cli": "^21.0.0",
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/postcss": "^4.1.12",
-    "jsdom": "^27.1.0",
     "angular-eslint": "21.1.0",
     "eslint": "^9.39.1",
+    "jsdom": "^27.1.0",
     "postcss": "^8.5.3",
     "prettier": "^3.7.4",
     "tailwindcss": "^4.1.12",
